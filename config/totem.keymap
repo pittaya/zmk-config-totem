@@ -210,10 +210,14 @@ label= "MOUSE"                             ;
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
+//                &trans      &trans      &trans      &trans      &trans          &trans      &trans      &trans      &trans      &trans
+//                &kp LGUI    &kp LALT    &kp LCTRL   &kp LSHFT   &trans          &trans      &mkp MOVE_LEFT &mkp MOVE_UP &mkp MOVE_DOWN &mkp MOVE_RIGHT  
+//    &trans      &trans      &trans      &trans      &trans      &trans          &trans      &mkp SCRL_LEFT &mkp SCRL_UP &mkp SCRL_DOWN &mkp SCRL_RIGHT &trans         
+//                                        &trans      &trans      &trans          &mkp MB2     &mkp MB1     &mkp MB3      
                 &trans      &trans      &trans      &trans      &trans          &trans      &trans      &trans      &trans      &trans
-                &kp LGUI    &kp LALT    &kp LCTRL   &kp LSHFT   &trans          &trans      &mkp MOVE_LEFT &mkp MOVE_UP &mkp MOVE_DOWN &mkp MOVE_RIGHT  
-    &trans      &trans      &trans      &trans      &trans      &trans          &trans      &mkp SCRL_LEFT &mkp SCRL_UP &mkp SCRL_DOWN &mkp SCRL_RIGHT &trans         
-                                        &trans      &trans      &trans          &mkp MB2     &mkp MB1     &mkp MB3      
+                &kp LGUI    &kp LALT    &kp LCTRL   &kp LSHFT   &trans          &trans      &kp LEFT   &kp UP       &kp DOWN    &kp RIGHT  
+    &trans      &trans      &trans      &trans      &trans      &trans          &trans      &kp HOME   &kp P_UP     &kp P_DOWN  &kp END &trans         
+                                        &trans      &trans      &trans          &trans      &trans     &trans      
                         >;
                 };
         };
