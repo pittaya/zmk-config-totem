@@ -211,7 +211,7 @@ label= "MOUSE"                             ;
 
                 &trans      &trans      &trans      &trans      &trans          &trans      &trans      &trans      &trans      &trans
                 &kp LGUI    &kp LALT    &kp LCTRL   &kp LSHFT   &trans          &trans      &kp LEFT    &kp UP      &kp DOWN    &kp RIGHT  
-    &trans      &trans      &trans      &trans      &trans      &trans          &trans      &kp HOME    &kp P_UP    &kp P_DOWN  &kp END     &trans         
+    &trans      &trans      &trans      &trans      &trans      &trans          &trans      &trans      &trans      &trans      &trans      &trans
                                         &trans      &trans      &trans          &trans      &trans      &trans      
                         >;
                 };
